@@ -1,0 +1,52 @@
+
+**/dist/
+**/tmp
+**/out-tsc
+**/bazel-out
+**/target/
+**/build/
+
+# Java specific
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Node modules and logs
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.factorypath
+.springBeans
+.sts4-cache
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
+
+# Miscellaneous
+**/node_modules
+
+# System files
+.DS_Store
+
